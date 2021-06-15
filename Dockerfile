@@ -1,3 +1,2 @@
-FROM httpd
-COPY . /usr/local/apache2/htdocs/
-
+FROM tomcat 
+COPY petclinic.war /usr/local/tomcat/webapps/
